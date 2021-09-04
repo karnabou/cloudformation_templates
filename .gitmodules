@@ -1,3 +1,0 @@
-[submodule "cfn_launcher"]
-	path = cfn_launcher
-	url = https://github.com/bonusbits/cfn_launcher.git
