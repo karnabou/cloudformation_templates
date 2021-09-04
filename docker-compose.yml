@@ -1,0 +1,11 @@
+version: '3'
+services:
+  wordpress:
+    image: conetix/wordpress-with-wp-cli
+    ports:
+      - "80:80"
+    restart: always
+    environment:
+      WORDPRESS_DB_USER: Wordpress
+      WORDPRESS_DB_PASSWORD: Wordpress
+      WORDPRESS_DB_NAME: Wordpress
